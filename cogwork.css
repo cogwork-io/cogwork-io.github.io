@@ -1,0 +1,89 @@
+body {padding:0; margin:0; background-color:black; overflow: hidden;}
+    .fa {
+      font-family: 'FontAwesome';
+    }
+    .fa-cog {
+      position:absolute;
+      color: white;
+      opacity: 0.09;
+    }
+    #g1 {
+      right: -30%;
+      top: -500px;
+      font-size: 60em;
+    }
+    #g2 {
+      bottom: -300px;
+      left: 15px;
+      font-size: 25em;
+    }
+    #g3 {
+      top: -250px;
+      left: -675px;
+      font-size: 88em;
+    }
+    #g4 {
+      right: 380px;
+      top: -35px;
+      font-size: 28em;
+    }
+    #g5 {
+      font-size: 12em;
+      left: 450px;
+      top: 55px;
+    }
+    #g6 {
+      font-size: 35em;
+      bottom: -330px;
+      right: -125px;
+    }
+    .cog-s1 {
+      -webkit-animation: spin 1s infinite linear;
+      -moz-animation: spin 1s infinite linear;
+      -o-animation: spin 1s infinite linear;
+      animation: spin 1s infinite linear;
+    }
+    .cog-s3 {
+      -webkit-animation: spin 3s infinite linear;
+      -moz-animation: spin 3s infinite linear;
+      -o-animation: spin 3s infinite linear;
+      animation: spin 3s infinite linear;
+    }
+    .cog-s5 {
+      -webkit-animation: spin 5s infinite linear;
+      -moz-animation: spin 5s infinite linear;
+      -o-animation: spin 5s infinite linear;
+      animation: spin 5s infinite linear;
+    }
+    .cog-s8 {
+      -webkit-animation: spin 8s infinite linear;
+      -moz-animation: spin 8s infinite linear;
+      -o-animation: spin 8s infinite linear;
+      animation: spin 8s infinite linear;
+    }
+    .cog-s10 {
+      -webkit-animation: spin 10s infinite linear;
+      -moz-animation: spin 10s infinite linear;
+      -o-animation: spin 10s infinite linear;
+      animation: spin 10s infinite linear;
+    }
+    .foreground {
+      z-index: 20;
+      background-color: #111;
+      width: 100%;
+      position: absolute;
+      top: 25%;
+      height: 10em;
+      color: lightgray;
+      font-family: sans-serif, helvetica;
+      font-size: x-large;
+    }
+    .foreground p {
+      padding-top: 1.5em;
+      text-align: center
+    }
+    .foreground a {
+      color: lightgray;
+      text-decoration: none;
+      font-size: small;
+    }
