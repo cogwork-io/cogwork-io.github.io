@@ -2,10 +2,10 @@ body {padding:0; margin:0; background-color:black; overflow: hidden;}
     .fa {
       font-family: 'FontAwesome';
     }
-    .fa-cog {
+    .background .fa-cog {
       position:absolute;
       color: white;
-      opacity: 0.09;
+      opacity: 0.12;
     }
     #g1 {
       right: -30%;
@@ -73,13 +73,13 @@ body {padding:0; margin:0; background-color:black; overflow: hidden;}
       width: 100%;
       position: absolute;
       top: 25%;
-      height: 10em;
+      height: 12em;
       color: lightgray;
       font-family: sans-serif, helvetica;
       font-size: x-large;
     }
-    .foreground p {
-      padding-top: 1.5em;
+    .foreground p, .foreground h2 {
+      padding-top: 1.0em;
       text-align: center
     }
     .foreground a {
